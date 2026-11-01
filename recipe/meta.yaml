@@ -1,5 +1,5 @@
 {% set name = "neqsim" %}
-{% set version = "3.26.0" %}
+{% set version = "3.27.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c0c1f94564a5478fcc1d2ab07d9281c706e58d04904af1752b3cf0c402548bbd
+  sha256: 572ec651513a465fe75590820ed4f7a4e3fd43bff6457655e7d5119410cec4d0
 
 build:
   number: 0
